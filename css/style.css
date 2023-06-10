@@ -1,0 +1,161 @@
+body {
+  text-align: center;
+  background-image: url(/img/chiensvschats.jpg);
+  background-size: 100%;
+}
+
+h2{
+  color: white;
+  background-color: black;
+  max-width: 20%;
+  margin-left: 40%;
+}
+
+label{
+  color: white;
+  background-color: black;
+}
+
+#playerAvatar{
+  width: 100px;
+  height: auto;
+}
+#colx{
+  float: inline-start;
+}
+#lgny{
+  float: inline-start;
+}
+
+#lgny button{
+  padding: 2px;
+  color: lightskyblue;
+  border: solid 1px lightskyblue;
+  border-radius: 9999px;
+  font-size: larger;
+}
+
+#colx button{
+  padding: 2px;
+  color: lightskyblue;
+  border: solid 1px lightskyblue;
+  border-radius: 9999px;
+  font-size: larger;
+}
+
+#lgny button:focus{
+  color: white;
+  background-color: lightskyblue;
+  border: solid 1px lightskyblue;
+}
+
+#colx button:focus{
+  color: white;
+  background-color: lightskyblue;
+  border: solid 1px lightskyblue;
+}
+
+#joueur1 button{
+  padding: 2px;
+  color: lightskyblue;
+  border: solid 1px lightskyblue;
+  border-radius: 9999px;
+  font-size: larger;
+}
+
+#joueur2 button{
+  padding: 2px;
+  color: lightskyblue;
+  border: solid 1px lightskyblue;
+  border-radius: 9999px;
+  font-size: larger;
+}
+
+#joueur1 button:focus{
+  color: white;
+  background-color: lightskyblue;
+  border: solid 1px lightskyblue;
+}
+
+#joueur2 button:focus{
+  color: white;
+  background-color: lightskyblue;
+  border: solid 1px lightskyblue;
+}
+
+#playerAvatar{
+  z-index: 1;
+}
+
+#avatarColor1{
+  z-index: 2;
+}
+
+#avatarColor2{
+  z-index: 2;
+}
+
+#btnUndo{
+  margin-left: 15%;
+  padding: 3px;
+  border-radius: 9999px;
+  color: rgb(26, 101, 214);
+}
+
+table {
+  margin: auto;
+  background-color: blue;
+}
+
+td {
+  margin: auto;
+  border-radius: 50%;
+  width: 75px;
+  text-align: center;
+  background-color: black;
+}
+
+td:hover{
+  background-color: lightgrey;
+}
+
+tr {
+  margin: auto;
+  border: 1px solid blue;
+  height: 75px;
+}
+
+.player {
+  border-radius: 50px 50px 50px 50px;
+  margin-top: 5px;
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  /* background-image: url(/img/chien.png); */
+  background-size: 100%;
+}
+
+#reload{
+  padding: 10px;
+  color: red;
+  border: solid 1px red;
+  border-radius: 9999px;
+  font-size: larger;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+#newGame{
+  padding: 10px;
+  color: lightgreen;
+  border: solid 1px lightgreen;
+  border-radius: 9999px;
+  font-size: larger;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+#newGame:active{
+  background-color: lightgreen;
+  color: white;
+}
