@@ -66,7 +66,7 @@ function newGame() {
     hideWinner();
     let playerAvatar = document.getElementById("playerAvatar");
     let currentPlayer = document.getElementById("currentPlayer");
-    playerAvatar.src = player == 1 ? "/img/chien.png" : "/img/chat.png";
+    playerAvatar.src = player == 1 ? "img/chien.png" : "img/chat.png";
     currentPlayer.innerHTML = player == 1 ? player1 : player2;
 }
 
@@ -112,12 +112,12 @@ function clickEvent() {
                 let divElt = document.createElement('div');
                 divElt.className = "player";
                 caseMinElt.appendChild(divElt);
-                divElt.style.backgroundImage = player == 1 ? "url(/img/chien.png)" : "url(/img/chat.png)";
+                divElt.style.backgroundImage = player == 1 ? "url(img/chien.png)" : "url(img/chat.png)";
                 divElt.style.border = player == 1 ? "solid 3px" + avatarColor1 : "solid 3px" + avatarColor2;
                 divElt.style.opacity = 1;
                 let playerAvatar = document.getElementById("playerAvatar");
                 let currentPlayer = document.getElementById("currentPlayer");
-                playerAvatar.src = player == 1 ? "/img/chat.png" : "/img/chien.png";
+                playerAvatar.src = player == 1 ? "img/chat.png" : "img/chien.png";
                 currentPlayer.innerHTML = player == 1 ? player2 : player1;
                 // currentPlayer.style.color = player == 1 ? avatarColor2 : avatarColor1;
 
@@ -167,7 +167,7 @@ function clickEvent() {
 
 
 // Fonction de Vérification de victoire
-let audio = new Audio('/img/bruit jeton.wav');
+let audio = new Audio('img/bruit jeton.wav');
 function checkWin(i, j) {
     // Vérification horizontale
     let countLigne = 0;
